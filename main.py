@@ -19,4 +19,10 @@ Can be used to push themes to the BetterSEQTA+ Repo.
 
 -# Created by `ar-cyber`""")
 
+group = app_commands.Group(name="theme", description="Everything themes")
+
+@group.tree.command(name = "create", description = "Create a theme")
+@app_commands.describe(theme_file = "The theme file")
+async def 
+
 client.run(open(".env", "r").read())
